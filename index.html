@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My IITB Journey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1><a href="#">JOURNEY AT IIT BOMBAY</a></h1>
+    <nav>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#learnings">Learnings</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#fun-qna">QnA</a></li>
+        <li><a href="#footer">Useful Links</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section id="intro">
+    <h2>Introduction</h2>
+    <p>
+        Hello! I'm Sanskar Srivastava, a student at IIT Bombay in Civil Department interested in CSE Department. I was kind of least active in my First 
+        Semester but can't say the same for Second Semester. I have explored many things throughout the First Year and it was kinda very fun, those 
+        all-nighters, gossips, laughs with the wingies were the best parts of my first year.
+    </p>
+  </section>
+
+  <!-- Timeline / Milestones -->
+  <section id="timeline">
+  <h2>My Timeline</h2>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>First Week</h3>
+      <p>First week went in adjusting in everything from food to people. Also, the campus was a sight to watch during monsoons. And that's how life went enjoying until Mid Semester Exams.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-firstweek')">Show Photo</button>
+    <div class="timeline-image" id="img-firstweek">
+      <img src="Media/Timeline/Campus.jpg" alt="Campus Photo">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Salsa Night</h3>
+      <p>Heaven for couples. It rained on Salsa Night and we danced in rain, it was pure fun.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-salsa')">Show Photo</button>
+    <div class="timeline-image" id="img-salsa">
+      <img src="Media/Timeline/Salsa.jpg" alt="Salsa">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Marine Drive</h3>
+      <p>We went to Marine Drive first time after coming in IIT Bombay and guess, to see what? Sunrise. BTW Sun sets at that side.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-marine')">Show Photo</button>
+    <div class="timeline-image" id="img-marine">
+      <img src="Media/Timeline/Marine_Drive.jpg" alt="Marine Drive">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Navratri</h3>
+      <p>Festive time begins with Navratri. Tried to do garba and dandiya but at last couldn't.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-navratri')">Show Photo</button>
+    <div class="timeline-image" id="img-navratri">
+      <img src="Media/Timeline/Navratri.jpg" alt="navratri">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Halloween</h3>
+      <p>I was the lead actor of Halloween GC trailer of 2024. Tried acting for the first time and it turned out to be really good. Also My first event as an Organizer.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-halloween')">Show Photo</button>
+    <div class="timeline-image" id="img-halloween">
+      <img src="Media/Timeline/Halloween.jpg" alt="halloween">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Diwali</h3>
+      <p>Wanted to go home during Diwali. But guess what? Chemistry Lab Practical on next day of diwali. Yup Sometimes academic schedule sucksss!!</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-diwali')">Show Photo</button>
+    <div class="timeline-image" id="img-diwali">
+      <img src="Media/Timeline/Diwali.jpg" alt="diwali">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>First Semester Done</h3>
+      <p>Finally First Sem got over and we got a sigh of relief. It was a sem full of orientations after all.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-sem')">Show Photo</button>
+    <div class="timeline-image" id="img-sem">
+      <img src="Media/Timeline/First_Sem_Over.jpg" alt="sem">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Lonavala</h3>
+      <p>Due to all the stress we got during End Sem, finally we got a trip planned but guess what? timing not good. Lonavala wasn't lonavaling but we managed to chill in a villa with wingies.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-lonavala')">Show Photo</button>
+    <div class="timeline-image" id="img-lonavala">
+      <img src="Media/Timeline/Lonavala.jpg" alt="lonavala">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>TechFest</h3>
+      <p>My first major Fest in the Institute and it was very very fun being a part of organizing team.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-techfest')">Show Photo</button>
+    <div class="timeline-image" id="img-techfest">
+      <img src="Media/Timeline/TechFest.jpg" alt="techfest">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Mood Indigo</h3>
+      <p>Asia's biggest cultural fest, no doubt. The concerts at night was the best part. Games were also on point, in short everything was on point and no doubt it was actually too much fun.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-moodindigo')">Show Photo</button>
+    <div class="timeline-image" id="img-moodindigo">
+      <img src="Media/Timeline/MoodIndigo.jpg" alt="moodindigo">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Traditional Day</h3>
+      <p>Trad day was no doubt a vibe which is irreplacable. Crazyyy night it was.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-traditional')">Show Photo</button>
+    <div class="timeline-image" id="img-traditional">
+      <img src="Media/Timeline/TraditionalDay.jpg" alt="traditional Day">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Showstopper</h3>
+      <p>Annual fashion showcase of StyleUp. Took part in that and our theme was based on Marvel v/s DC. I was Deadpool and costumes were a big mess and ultimately I had to body and face paint to get the look.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-showstopper')">Show Photo</button>
+    <div class="timeline-image" id="img-showstopper">
+      <img src="Media/Timeline/Showstopper.jpg" alt="showstopper">
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header">
+      <h3>Holi</h3>
+      <p>It was just water and colour on whole hostel building a night before holi. It was too much fun to run and escape the guards and fight with water and tear clothes of each other. Probably, the most wild festival in IIT Bombay.</p>
+    </div>
+    <button class="toggle-btn" onclick="toggleImage('img-holi')">Show Photo</button>
+    <div class="timeline-image" id="img-holi">
+      <img src="Media/Timeline/Holi.jpg" alt="holi">
+    </div>
+  </div>
+
+  <!-- Add more events similarly -->
+  </section>
+
+
+  <!-- Learnings and Growth -->
+  <section id="learnings">
+    <h2>Learnings & Growth</h2>
+    <ul>
+      <li>Completed MS101 Project</li>
+      <li>Learned Video Editing</li>
+      <li>Tried Acting in a Trailer</li>
+      <li>Became Active as an organizer in events</li>
+      <li>Explored Politics of Insititute</li>
+      <li>CS101 became my favourite course of the First Year</li>
+      <li>Started Learning DSA</li>
+      <li>Improved time management and problem-solving skills</li>
+      <li>Completed 64 credits</li>
+      <li>Learning Full Stack Development</li>
+    </ul>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+  <h2>Gallery</h2>
+  <div class="masonry-gallery">
+    <!-- Images -->
+    <img src="media/Boat House.jpg" alt="Photo 1">
+    <img src="media/campus 2.jpg" alt="Photo 2">
+    <img src="media/IMG-20240810-WA0003.jpg" alt="Photo 3">
+    <img src="media/IMG-20250616-WA0007.jpg" alt="Photo 4">
+    <img src="media/IMG-20250616-WA0009.jpg" alt="Photo 5">
+    <img src="media/IMG-20250616-WA0017.jpg" alt="Photo 6">
+    <img src="media/IMG-20250616-WA0022.jpg" alt="Photo 7">
+    <img src="media/Navratri.jpg" alt="Photo 8">
+    <img src="media/IMG-20250616-WA0028.jpg" alt="Photo 9">
+    <!-- Videos -->
+    <video controls src="media/VID-20250616-WA0001.mp4"></video>
+    <video controls src="media/VID-20250616-WA0002.mp4"></video>
+    <video controls src="media/WhatsApp Video 2025-06-14 at 04.04.35_0cc84adc.mp4"></video>
+  </div>
+  </section>
+
+
+  <!-- Interactive Section -->
+  <section id="fun-qna">
+  <h2>Fun Q&A 🎉</h2>
+  <div id="qna-container">
+    <div id="question-box" class="qna-box">Click "Show Question"!</div>
+    <div id="answer-box" class="qna-box hidden">Click "Show Answer"!</div>
+    <div class="qna-buttons">
+      <button id="show-question" class="qna-btn">🎲 Show Question</button>
+      <button id="show-answer" class="qna-btn">💡 Show Answer</button>
+    </div>
+  </div>
+
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p id="rights">© 2025 Sanskar Srivastava. All rights reserved.</p>
+    <br>
+    <div id="footerlinks">
+      <a href="https://www.iitb.ac.in" target="_blank">IIT Bombay</a>
+      <a href="https://www.civil.iitb.ac.in/cea/">Civil Engineering Association</a>
+      <a href="https://www.instagram.com/sanskar_srivastava07?utm_source=qr&igsh=Z3ppMDB1bmszbmF3">Instagram</a>
+      <a href="https://www.linkedin.com/in/srivastava-sanskar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
