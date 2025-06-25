@@ -1,4 +1,4 @@
-# 🎬 Mini YouTube Clone (Frontend Only)
+# 🎬 Mini YouTube Clone (Frontend Only, using BOOTSTRAP)
 
 A YouTube-inspired video app built using **React.js** and **Bootstrap 5** — with features like Like, Watch Later, Dark Mode, and live timer — using only frontend technologies.
 
