@@ -1,0 +1,26 @@
+/* index.css */
+body.dark-theme {
+  background-color: #121212 !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-theme a {
+  color: #9ddfff !important;
+}
+
+body.dark-theme .sidebar {
+  background-color: #1e1e1e !important;
+  color: #fff !important;
+  border-right: 1px solid #333 !important;
+}
+
+body.dark-theme .card {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+body.dark-theme .navbar,
+body.dark-theme footer {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
