@@ -5,7 +5,7 @@ A full-featured YouTube Clone built using Django (backend) and React (frontend).
 ---
 
 ## 📁 Project Structure
-
+<pre>
 public/
 │
 ├── backend/ # Django Backend
@@ -55,7 +55,7 @@ public/
 │ └── README.md # Frontend documentation (optional)
 │
 └── README.md # Main project documentation
-
+</pre>
 
 
 ---
