@@ -1,0 +1,50 @@
+export const videos = [
+  {
+    id: 1,
+    title: "React Hooks Explained",
+    channel: "CodeWithYou",
+    views: "1.2M views",
+    time: "2 days ago",
+    thumbnail: "https://i.ytimg.com/vi/dpw9EHDh2bM/hqdefault.jpg",
+  },
+  {
+    id: 2,
+    title: "Flexbox in 10 Minutes",
+    channel: "CSSNinjas",
+    views: "860K views",
+    time: "1 week ago",
+    thumbnail: "https://i.ytimg.com/vi/JJSoEo8JSnc/hqdefault.jpg",
+  },
+  {
+    id: 3,
+    title: "Understanding JavaScript Closures",
+    channel: "JS Bootcamp",
+    views: "540K views",
+    time: "3 weeks ago",
+    thumbnail: "https://i.ytimg.com/vi/3a0I8ICR1Vg/hqdefault.jpg",
+  },
+  {
+    id: 4,
+    title: "Tailwind CSS Crash Course",
+    channel: "DesignDaily",
+    views: "2.1M views",
+    time: "5 days ago",
+    thumbnail: "https://i.ytimg.com/vi/lCxcTsOHrjo/hqdefault.jpg",
+  },
+  {
+    id: 5,
+    title: "Data Structures in 15 Minutes",
+    channel: "AlgoMaster",
+    views: "690K views",
+    time: "1 month ago",
+    thumbnail: "https://i.ytimg.com/vi/sVxBVvlnJsM/hqdefault.jpg",
+  },
+  {
+    id: 6,
+    title: "Learn Git & GitHub",
+    channel: "DevBasics",
+    views: "950K views",
+    time: "4 weeks ago",
+    thumbnail: "https://i.ytimg.com/vi/RGOj5yH7evk/hqdefault.jpg",
+  }
+];

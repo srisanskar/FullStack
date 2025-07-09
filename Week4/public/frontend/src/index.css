@@ -1,0 +1,42 @@
+/* index.css */
+
+/* Global Dark Theme */
+body.dark-theme {
+  background-color: #121212 !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-theme a {
+  color: #9ddfff !important;
+}
+
+/* Sidebar */
+body.dark-theme .sidebar {
+  background-color: #1e1e1e !important;
+  color: #fff !important;
+  border-right: 1px solid #333 !important;
+}
+
+/* Navbar & Footer */
+body.dark-theme .navbar,
+body.dark-theme footer {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Card (VideoCard, etc.) */
+body.dark-theme .card {
+  background-color: #1f1f1f !important;
+  color: #ffffff !important;
+  border: 1px solid #333 !important;
+}
+
+body.dark-theme .card .card-title,
+body.dark-theme .card .card-text {
+  color: #ffffff !important;
+}
+
+body.dark-theme .text-muted {
+  color: #cccccc !important;
+}
+

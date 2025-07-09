@@ -1,0 +1,14 @@
+/* Optional styling for navbar search bar */
+.navbar input.form-control {
+  max-width: 500px;
+  transition: all 0.3s ease;
+}
+
+.navbar input.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.list-group-item {
+  z-index: 999;
+}
